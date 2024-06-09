@@ -1,5 +1,3 @@
-import React from "react";
-
 function Review() {
   return (
     <div className="container mx-auto mt-12 ">
@@ -33,7 +31,7 @@ function Review() {
               src="https://placehold.co/40x40"
               alt="Capterra Logo"
               className="h-10 w-10"
-              crossorigin="anonymous"
+              crossOrigin="anonymous"
             />
             <span className="ml-3 font-bold">Capterra</span>
           </div>

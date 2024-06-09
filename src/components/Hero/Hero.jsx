@@ -1,4 +1,3 @@
-import React from "react";
 import model from "./../../assets/hero/model3.png";
 import Review from "../Hero/Review";
 
