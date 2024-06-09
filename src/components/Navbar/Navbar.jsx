@@ -57,16 +57,12 @@ function Navbar() {
           aria-expanded={isOpen}
           aria-controls="mobile-menu"
         >
-          {isOpen ? (
-            <XMarkIcon className="h-6 w-6" />
-          ) : (
-            <Bars3BottomRightIcon className="h-6 w-6" />
-          )}
+          {isOpen ? "" : <Bars3BottomRightIcon className="h-6 w-6" />}
         </button>
       </div>
       <div
         id="mobile-menu"
-        className={`md:hidden bg-slate-50 px-6 pt-0 pb-10 fixed top-5 left-0 w-full h-50 z-50 flex flex-col items-center transition-transform transform ${
+        className={`md:hidden bg-slate-50 px-6 pt-0 pb-10 fixed top-0 left-0 w-full h-50 z-50 flex flex-col items-center transition-transform transform ${
           isOpen ? "translate-y-0" : "-translate-y-full"
         }`}
       >
