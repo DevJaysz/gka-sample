@@ -8,7 +8,7 @@ function Hero() {
       <div className="container mx-auto  px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6 bg-0">
           <div className="md:col-span-7 flex flex-col justify-center">
-            <span className="text-blue-500 font-bold w-full md:w-3/4">
+            <span className="text-gray-500 font-bold w-full md:w-3/4">
               Elevate Your Wardrobe – Explore the Latest in Fashion and
               Accessories! 🛍️ #ShopTheLook #NewArrivals
             </span>
@@ -20,10 +20,10 @@ function Hero() {
               of trendy apparel, accessories, and unique lifestyle products.
             </p>
             <div className="mt-6 flex space-x-4">
-              <button className="bg-blue-500 text-white font-bold px-6 py-3 rounded-3xl">
+              <button className="bg-gray-800 text-white font-bold px-6 py-3 rounded-3xl">
                 Shop now!
               </button>
-              <button className="bg-zinc-200 text-zinc-700 font-bold px-6 py-3 rounded-3xl">
+              <button className="bg-slate-100 border-2 border-grey-700 text-zinc-700 font-bold px-6 py-3 rounded-3xl">
                 Watch Video
               </button>
             </div>

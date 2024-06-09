@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import NavLogo from "./../../assets/nav/NavLogo.png";
 
 function Navbar() {
   return (
-    <nav className="pt-5">
-      <div className="container mx-auto flex justify-between items-center px-6 py-5 rounded-full bg-slate-50 ">
+    <nav className="pt-5 px-6">
+      <div className="container mx-auto  flex justify-between items-center  px-6 py-5 rounded-full bg-slate-50 ">
         <div className="flex items-center">
-          <div className="w-44">
+          <div className="w-32">
             {" "}
             <img src={NavLogo} alt="" />
           </div>
@@ -31,7 +31,7 @@ function Navbar() {
           <button className="border-2 border-grey-500  px-4 py-2 font-bold rounded-3xl ">
             Log In
           </button>
-          <button className="bg-blue-500 text-white px-4 py-2 font-bold rounded-3xl">
+          <button className="bg-gray-800 text-white px-4 py-2 font-bold rounded-3xl">
             Get Started
           </button>
         </div>
