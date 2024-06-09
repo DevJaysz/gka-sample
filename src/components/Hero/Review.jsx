@@ -16,7 +16,7 @@ function Review() {
               src="https://placehold.co/40x40"
               alt="Trustpilot Logo"
               className="h-10 w-10"
-              crossorigin="anonymous"
+              crossOrigin="anonymous"
             />
             <span className="ml-3 font-bold ">Trustpilot</span>
           </div>
