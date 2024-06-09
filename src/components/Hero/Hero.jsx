@@ -21,7 +21,7 @@ function Hero() {
             </p>
             <div className="mt-6 flex space-x-4">
               <button className="bg-blue-500 text-white font-bold px-6 py-3 rounded-3xl">
-                Get Started
+                Shop now!
               </button>
               <button className="bg-zinc-200 text-zinc-700 font-bold px-6 py-3 rounded-3xl">
                 Watch Video
