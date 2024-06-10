@@ -60,7 +60,7 @@ function Review() {
           <SwiperSlide>
             <button
               onClick={handleAddReview}
-              className="bg-slate-50 p-6 rounded-full shadow-md flex-shrink-0 w-16 h-16 flex justify-center items-center mx-3 mt-5 focus:outline-none"
+              className="bg-slate-50 p-6 rounded-full shadow-md flex-shrink-0 w-16 h-16 flex justify-center items-center mx-8 mt-7 focus:outline-none"
             >
               <svg
                 className="w-8 h-8 text-gray-800"
