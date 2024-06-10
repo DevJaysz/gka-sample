@@ -1,53 +1,11 @@
 import React from "react";
+import reviews from "../../assets/reviews.js";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 
 function Review() {
-  const reviews = [
-    {
-      rating: "★★★★★",
-      score: "4.2/5",
-      count: "(45k Reviews)",
-      logo: "https://placehold.co/40x40",
-      site: "Trustpilot",
-      color: "text-green-500",
-    },
-    {
-      rating: "★★★★☆",
-      score: "4.1/5",
-      count: "(18k Reviews)",
-      logo: "https://placehold.co/40x40",
-      site: "Capterra",
-      color: "text-orange-500",
-    },
-    {
-      rating: "★★★★☆",
-      score: "4.1/5",
-      count: "(18k Reviews)",
-      logo: "https://placehold.co/40x40",
-      site: "Capterra",
-      color: "text-orange-500",
-    },
-    {
-      rating: "★★★★☆",
-      score: "4.1/5",
-      count: "(18k Reviews)",
-      logo: "https://placehold.co/40x40",
-      site: "Capterra",
-      color: "text-orange-500",
-    },
-    {
-      rating: "★★★★☆",
-      score: "4.1/5",
-      count: "(18k Reviews)",
-      logo: "https://placehold.co/40x40",
-      site: "Capterra",
-      color: "text-orange-500",
-    },
-  ];
-
   const handleAddReview = () => {
     // Add functionality to handle the click event
     console.log("Add review clicked");

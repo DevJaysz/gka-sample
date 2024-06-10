@@ -44,10 +44,10 @@ function Navbar() {
           </a>
         </div>
         <div className="hidden md:flex space-x-4">
-          <button className="border-2 border-grey-500 px-4 py-2 font-bold rounded-3xl">
+          <button className="border-2 border-grey-500 hover:bg-gray-200 px-4 py-2 font-bold rounded-3xl">
             Log In
           </button>
-          <button className="bg-gray-800 text-white px-4 py-2 font-bold rounded-3xl">
+          <button className="bg-gray-800 hover:bg-gray-300 text-white px-4 py-2 font-bold rounded-3xl">
             Get Started
           </button>
         </div>

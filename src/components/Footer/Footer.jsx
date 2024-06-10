@@ -1,5 +1,3 @@
-import React from "react";
-
 function Footer() {
   return (
     <footer className="bg-gray-800 text-white py-5 flex justify-between ">
@@ -7,7 +5,7 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 ">
           <div>
             <h2 className="text-sm font-bold">About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Style that Speaks: Fashion for Every Moment.</p>
           </div>
           <div>
             <h2 className="text-sm font-bold">Contact Us</h2>

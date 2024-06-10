@@ -19,10 +19,10 @@ function Hero() {
               of trendy apparel, accessories, and unique lifestyle products.
             </p>
             <div className="mt-6 flex space-x-4">
-              <button className="bg-gray-800 text-white font-bold px-6 py-3 rounded-3xl">
+              <button className="bg-gray-800 hover:bg-gray-300 text-white font-bold px-6 py-3 rounded-3xl">
                 Shop now!
               </button>
-              <button className="bg-slate-100 border-2 border-grey-700 text-zinc-700 font-bold px-6 py-3 rounded-3xl">
+              <button className="bg-slate-100 border-2  hover:bg-gray-200 border-grey-500 text-zinc-700 font-bold px-6 py-3 rounded-3xl">
                 Watch Video
               </button>
             </div>
