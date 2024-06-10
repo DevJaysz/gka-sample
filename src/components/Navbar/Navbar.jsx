@@ -19,25 +19,25 @@ function Navbar() {
         </div>
         <div className="hidden md:flex space-x-8">
           <a
-            href="#"
+            href="/Apparel"
             className="relative font-bold text-l w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
           >
             Apparel
           </a>
           <a
-            href="#"
+            href="/Accessories"
             className="relative font-bold text-l w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
           >
             Accessories
           </a>
           <a
-            href="#"
+            href="/Home & Lifestyle"
             className="relative font-bold text-l w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
           >
             Home & Lifestyle
           </a>
           <a
-            href="#"
+            href="/Collections"
             className="relative font-bold text-l w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
           >
             Collections
